@@ -11,7 +11,6 @@ Takım Flutter 110
 - Ebrar Derindağ: Scrum Master, Developer
 - Ilgın Akarcan: Product Owner, Developer
 - Berke Yılmaz: Developer
-- Ekin Çal: Developer
 - Muhammet Ali Aydın: Developer
 
 ## Ürün İsmi
