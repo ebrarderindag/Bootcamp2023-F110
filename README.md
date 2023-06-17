@@ -8,7 +8,7 @@ Takım Flutter 110
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Ebrar Derindağ: Scrum Master, Developer...
+- Ebrar Derindağ: Scrum Master, Developer
 - Ilgın Akarcan: Product Owner, Developer
 - Berke Yılmaz: Developer
 - Muhammet Ali Aydın: Developer
