@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'pages/userpage.dart';
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
           ),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)
               .copyWith(background: Colors.lightBlue[50])),
-      home:   const UserPage(),
+      home: const UserPage(),
     );
   }
 }

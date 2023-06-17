@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
                 Text(welcomingData,
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         color: Colors.grey[700], fontWeight: FontWeight.w600)),
-                SizedBox(
+                const SizedBox(
                   height: 24,
                 ),
                 MyTextField(
