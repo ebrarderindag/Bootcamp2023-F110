@@ -7,6 +7,8 @@ class Mybuttons extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(width: 200 ,child: ElevatedButton(onPressed: () {},style:ElevatedButton.styleFrom(
                   backgroundColor: Colors.green,
+                  shape: const StadiumBorder(),
+                  elevation:6,
                 ), child: Text(text)));
   }
 }
