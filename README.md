@@ -38,7 +38,7 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 ## Ürün Özellikleri
 
-1. Bakıcı Arama ve Filtreleme: Evcil hayvan sahipleri, uygulama üzerinden çeşitli kriterlere göre bakıcıları arayabilir ve filtreler. Bu kriterler arasında konum, deneyim, hayvan türü tercihi, referanslar ve kullanıcı değerlendirmeleri yer alır.
+1. Bakıcı Arama ve Filtreleme: Evcil hayvan sahipleri, uygulama üzerinden çeşitli kriterlere göre bakıcıları arayabilir ve filtreleyebilir. Bu kriterler arasında konum, deneyim, hayvan türü tercihi, referanslar ve kullanıcı değerlendirmeleri yer alır.
 
 2. Bakıcı Profilleri: Uygulama, bakıcıların ayrıntılı profillerini sunar. Bu profillerde bakıcının adı, fotoğrafı, deneyimi, eğitimi, referansları ve evcil hayvanlarla ilgili özel becerileri gibi bilgiler yer alır. Bu sayede evcil hayvan sahipleri, bakıcıların geçmiş deneyimlerini ve uzmanlıklarını değerlendirilir.
 
