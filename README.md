@@ -17,7 +17,7 @@ Takım Flutter 110
 
 
 ## Product Backlog URL
-
+https://trello.com/b/WG8qC98Z/f110
 
 ## Ürün Açıklaması
 
