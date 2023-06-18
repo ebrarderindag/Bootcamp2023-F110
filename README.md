@@ -5,6 +5,7 @@ Oyun ve Uygulama Akademisi Bootcamp 2023
 
 Flutter 110
 
+# Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 - Ebrar Derindağ: Scrum Master, Developer
@@ -52,4 +53,25 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 **** uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu uygulama, köpek, kedi, kuş, hamster, tavşan gibi çeşitli evcil hayvan türlerine sahip olan bireyleri hedefler. Hedef kitlenin genellikle seyahat etmek zorunda kalan, tatil yapmak isteyen veya iş gereği şehir dışına çıkan evcil hayvan sahipleri olduğunu söyleyebiliriz. Bu uygulama, evcil hayvan sahiplerinin seyahatleri sırasında evcil hayvanlarının güvende ve bakımlı bir ortamda kalmasını sağlamayı amaçlar.
 
+# Sprint 1
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. 
+
+- **Sprint board update**: Sprint board screenshotları: 
+  ![Backlog 1]()
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1]()
+  ![Screenshot 2]()
+  
+- **Sprint Review**: 
+Alınan kararlar: Base UI tasarımı Figmada oluşturulmuş bazı sayfalar kodlanmıştır, Uygulama için veritabanı olarak firebase servisleri aktif edilmiş ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Emre Demir, Zeliş Yıldırım, Sueda Nur Önder.
+
+- **Sprint Retrospective:**
+- Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini geliştirdiği görülmektedir.
 
