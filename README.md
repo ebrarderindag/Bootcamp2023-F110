@@ -70,9 +70,8 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 - **Ürün Durumu**: Ekran görüntüleri:
 
 
-  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz1_Sprint1.png)
-  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz2_Sprint1.png)
-  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz3_Sprint1.png)
+  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Arayuz_Sprint1.jpeg)
+
 - **Sprint Review**: 
 Alınan kararlar: Base UI tasarımı Figmada oluşturulmuş bazı sayfalar kodlanmıştır, Uygulama için veritabanı olarak firebase servisleri aktif edilmiş ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Emre Demir, Zeliş Yıldırım, Sueda Nur Önder.
 
