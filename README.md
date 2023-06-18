@@ -12,6 +12,7 @@ Flutter 110
 - Ilgın Akarcan: Product Owner, Developer
 - Berke Yılmaz: Developer
 - Muhammet Ali Aydın: Developer
+- Ekin Çal: Aktif Olmayan Üye
 
 ## Ürün İsmi
 
