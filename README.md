@@ -18,7 +18,7 @@ Takım Flutter 110
 
 ## Product Backlog URL
 
-[Flutter Team 52 Miro Backlog Board](https://trello.com/b/WG8qC98Z/f110 )
+[Flutter Team 110 Backlog Board](https://trello.com/b/WG8qC98Z/f110 )
 
 ## Ürün Açıklaması
 
