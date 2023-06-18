@@ -73,9 +73,11 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
   ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Arayuz_Sprint1.jpeg)
 
-- **Sprint Review**: 
-  Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlanmış, uygulama için veritabanı olarak firebase servisleri kullanımına karar verilmiş ve eksiklikler değerlendirilmiştir. 
-  Sprint Review katılımcıları: Ebrar Derindağ, Ilgın Akarcan, Berke Yılmaz, Muhammet Ali Aydın
+- **Sprint Review**:
+ 
+  - Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlanmış, uygulama için veritabanı olarak firebase servisleri kullanımına karar verilmiş ve eksiklikler değerlendirilmiştir. 
+
+  - Sprint Review katılımcıları: Ebrar Derindağ, Ilgın Akarcan, Berke Yılmaz, Muhammet Ali Aydın
 
 - **Sprint Retrospective:**
   - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini geliştirdiği görülmüştür.
