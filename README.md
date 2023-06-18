@@ -63,9 +63,13 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 - **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. 
 
 - **Sprint board update**: Sprint board screenshotları: 
+
+
   ![Backlog 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/trello_Sprint1.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
+
+
   ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz1_Sprint1.png)
   ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz2_Sprint1.png)
   ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/arayuz3_Sprint1.png)
