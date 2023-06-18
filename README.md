@@ -5,7 +5,6 @@ Oyun ve Uygulama Akademisi Bootcamp 2023
 
 Flutter 110
 
-# Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 - Ebrar Derindağ: Scrum Master, Developer
@@ -25,7 +24,7 @@ Flutter 110
 
 - **Uygulama birincil fonksiyonlar**: 
 
-Birincil Fonksiyon: Hayvan bakıcılığı uygulaması, evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.
+Birincil Fonksiyon: ***, evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.
 
 
 
@@ -37,9 +36,20 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 ## Ürün Özellikleri
 
+1. Bakıcı Arama ve Filtreleme: Evcil hayvan sahipleri, uygulama üzerinden çeşitli kriterlere göre bakıcıları arayabilir ve filtreler. Bu kriterler arasında konum, deneyim, hayvan türü tercihi, referanslar ve kullanıcı değerlendirmeleri yer alır.
+
+2. Bakıcı Profilleri: Uygulama, bakıcıların ayrıntılı profillerini sunar. Bu profillerde bakıcının adı, fotoğrafı, deneyimi, eğitimi, referansları ve evcil hayvanlarla ilgili özel becerileri gibi bilgiler yer alır. Bu sayede evcil hayvan sahipleri, bakıcıların geçmiş deneyimlerini ve uzmanlıklarını değerlendirilir.
+
+3. Takvim ve Randevu Yönetimi: Uygulama, evcil hayvan sahiplerine bakıcılarla randevu ayarlama ve takvimlerini senkronize etme imkanı sağlar. Böylece seyahat planları bakıcıların programlarıyla kolayca uyumlu hale getirilir.
+
+4. Güvenlik ve Sigorta: Uygulama, bakıcıların güvenilirliği için kimlik doğrulama ve referans kontrolü gibi önlemler alır. Ayrıca, tüm bakıcılar için sigorta poliçesi sağlanır, böylece evcil hayvanın güvenliği ve sağlığı konusunda endişe duymadan seyahat edilir.
+
+5. Değerlendirmeler ve Geribildirimler: Evcil hayvan sahipleri, uygulama üzerinden bakıcılarla ilgili deneyimlerini ve geribildirimlerini paylaşabilir. Bu sayede diğer kullanıcılar için referans oluşturulabilir ve kaliteli bakıcılar teşvik edilir.
+
+
 
 ## Hedef Kitle
 
-
+**** uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu uygulama, köpek, kedi, kuş, hamster, tavşan gibi çeşitli evcil hayvan türlerine sahip olan bireyleri hedefler. Hedef kitlenin genellikle seyahat etmek zorunda kalan, tatil yapmak isteyen veya iş gereği şehir dışına çıkan evcil hayvan sahipleri olduğunu söyleyebiliriz. Bu uygulama, evcil hayvan sahiplerinin seyahatleri sırasında evcil hayvanlarının güvende ve bakımlı bir ortamda kalmasını sağlamayı amaçlar.
 
 
