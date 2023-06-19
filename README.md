@@ -59,7 +59,7 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir.
-[Sprint 1 Daily Scrum Chats](https://github.com/ebrarderindag/Bootcamp2023-F110/tree/main/ReadMeSS)
+[Sprint 1 Daily Scrum Chats](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/DailyScrumMeetingNotesSprint1%20(1).docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
 
