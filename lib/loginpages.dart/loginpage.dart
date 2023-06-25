@@ -1,4 +1,4 @@
-import 'package:f110/components/mybutton.dart';
+import 'package:f110/appPages/appmain.dart';
 import 'package:f110/components/textfields.dart';
 import 'package:flutter/material.dart';
 
@@ -11,6 +11,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var welcomingData = 'Tekrardan Hoş Geldin!';
+    const giristext = 'Giriş Yap';
     return Scaffold(
         appBar: AppBar(),
         body: Center(
@@ -36,7 +37,11 @@ class LoginPage extends StatelessWidget {
                 const SizedBox(
                   height: 100,
                 ),
-                const Mybuttons(text: 'Giriş Yap')
+                 SizedBox(width: 200 ,child: ElevatedButton(onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) {return const AppMain();},));},style:ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  shape: const StadiumBorder(),
+                  elevation:6,
+                ), child: const Text(giristext)))
               ],
             ),
           ),

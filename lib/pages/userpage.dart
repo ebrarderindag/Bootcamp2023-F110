@@ -1,3 +1,4 @@
+import 'package:f110/appPages/appmain.dart';
 import 'package:flutter/material.dart';
 
 import '../loginpages.dart/loginpage.dart';
@@ -17,7 +18,7 @@ class UserPage extends StatelessWidget {
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-         Text(appName,
+        Text(appName,
             style: TextStyle(
               color: Colors.grey[600],
               fontSize: 100,
@@ -61,12 +62,22 @@ class UserPage extends StatelessWidget {
                         backgroundColor: Colors.green,
                         elevation: 6),
                     child: Text(kayitOl))),
-                    
           ],
         ),
         Padding(
           padding: const EdgeInsets.all(36.0),
-          child: TextButton(onPressed: () {}, child:  Text(guest,style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.grey,))),
+          child: TextButton(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) {
+                    return const AppMain();
+                  },
+                ));
+              },
+              child: Text(guest,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Colors.grey,
+                      ))),
         )
       ],
     ));
