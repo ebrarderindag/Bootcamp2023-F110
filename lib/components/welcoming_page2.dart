@@ -1,13 +1,13 @@
-import 'package:f110/appPages/TabPages/profil.dart';
 import 'package:flutter/material.dart';
 
-class Welcoming1 extends StatelessWidget {
-  const Welcoming1({super.key});
+
+class Welcoming2 extends StatelessWidget {
+  const Welcoming2({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const subtext =
-        'Evcil hayvan sahiplerinin şehir dışına çıktıklarında rahatlıkla hayvanlarını güvende bırakabilecekleri sevgi dolu bakıcılar bulmalarını sağlayan bir platformdur. Evcil hayvanınızın ihtiyaçlarına duyarlı, deneyimli ve sevgi dolu bakıcıları bulmak artık daha kolay!';
+    const subtext='Evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.';
+    const appName = 'App Name';
     return Scaffold(
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -15,7 +15,7 @@ class Welcoming1 extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(24.0),
           child: Container(
-              height: 550,
+              height:550,
               decoration: const BoxDecoration(
                   color: Colors.green,
                   borderRadius: BorderRadius.all(Radius.circular(24))),
@@ -28,10 +28,10 @@ class Welcoming1 extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.only(top: 150),
                     child: Center(
-                        child: Text('HOŞ GELDİN!',
+                        child: Text(appName,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 24,
+                              fontSize: 36,
                               fontWeight: FontWeight.w600,
                               letterSpacing: 2,
                             ))),
@@ -42,12 +42,11 @@ class Welcoming1 extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 12,
+                          fontSize: 14,
                           fontWeight: FontWeight.w600,
                           letterSpacing: 2,
                         )),
                   ),
-                  
                 ],
               )),
         )
