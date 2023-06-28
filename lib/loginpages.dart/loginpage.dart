@@ -2,8 +2,8 @@ import 'package:f110/appPages/appmain.dart';
 import 'package:f110/components/textfields.dart';
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
-  LoginPage({super.key});
+class ilkLoginPage extends StatelessWidget {
+  ilkLoginPage({super.key});
 
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();

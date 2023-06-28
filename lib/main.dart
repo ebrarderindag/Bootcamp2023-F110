@@ -1,9 +1,12 @@
+
 import 'package:f110/pages/%C4%B0nfopage.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-
-void main() {
+import 'package:FİREBASE_';
+void main()  {
+  WidgetsFlutterBinding.ensureInitialized();
+   Firebase.initializeApp(options: );
   runApp(const MyApp());
 }
 
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
           ),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)
               .copyWith(background: Colors.lightBlue[50])),
-      home:  DotIndicatorPage(),
+      home:  const DotIndicatorPage(),
     );
   }
 }
