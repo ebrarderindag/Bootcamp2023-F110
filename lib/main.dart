@@ -3,10 +3,8 @@ import 'package:f110/pages/%C4%B0nfopage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:FİREBASE_';
+
 void main()  {
-  WidgetsFlutterBinding.ensureInitialized();
-   Firebase.initializeApp(options: );
   runApp(const MyApp());
 }
 

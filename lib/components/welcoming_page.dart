@@ -1,4 +1,3 @@
-import 'package:f110/appPages/TabPages/profil.dart';
 import 'package:flutter/material.dart';
 
 class Welcoming1 extends StatelessWidget {
