@@ -1,8 +1,9 @@
-import 'package:f110/appPages/appmain.dart';
+
 import 'package:flutter/material.dart';
 
 import '../loginpages.dart/loginpage.dart';
 import '../loginpages.dart/registerask.dart';
+import '../newdesign/newAppMain.dart';
 
 class UserPage extends StatelessWidget {
   const UserPage({super.key});
@@ -12,17 +13,22 @@ class UserPage extends StatelessWidget {
     String giris = 'Giriş';
     String kayitOl = 'Kayıt Ol';
 
-    const appName = 'F-110';
+    const appName = 'PawBuddy';
     const guest = 'Misafir olarak devam et';
     return Scaffold(
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(appName,
-            style: TextStyle(
-              color: Colors.grey[600],
-              fontSize: 100,
-            )),
+        FittedBox(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(appName,
+                style: TextStyle(
+                  color: Colors.grey[600],
+                  fontSize: 80,
+                )),
+          ),
+        ),
         const SizedBox(
           height: 75,
         ),
@@ -70,7 +76,7 @@ class UserPage extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) {
-                    return const AppMain();
+                    return const NewAppMain();
                   },
                 ));
               },

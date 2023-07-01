@@ -28,6 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  intl: ^0.18.1
+  google_nav_bar: ^5.0.6
+  provider:
   dots_indicator: ^2.0.0
   firebase_core: ^2.14.0
   firebase_auth: ^4.6.3

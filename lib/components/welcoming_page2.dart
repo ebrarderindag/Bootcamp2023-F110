@@ -7,7 +7,7 @@ class Welcoming2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const subtext='Evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.';
-    const appName = 'App Name';
+    const appName = 'PawBuddy';
     return Scaffold(
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,

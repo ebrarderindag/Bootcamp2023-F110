@@ -4,9 +4,9 @@ import '../components/mybutton.dart';
 import '../components/textfields.dart';
 
 class BakiciRegister extends StatelessWidget {
-   BakiciRegister({super.key});
-final usernameController = TextEditingController();
-final passwordController = TextEditingController();
+  BakiciRegister({super.key});
+  final usernameController = TextEditingController();
+  final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     var title2 = 'Bakıcı Kayıt Ekranı';
@@ -19,32 +19,35 @@ final passwordController = TextEditingController();
           centerTitle: true,
           elevation: 10,
         ),
-        body:  Center(child: SingleChildScrollView(child: Column(
+        body: Center(
+            child: SingleChildScrollView(
+                child: Column(
           children: [
-             Padding(
-               padding: const EdgeInsets.all(8.0),
-               child: Text(pageText,
-                         style: TextStyle(
-                color: Colors.grey[700],
-                fontSize: 30,
-                         )),
-             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(pageText,
+                  style: TextStyle(
+                    color: Colors.grey[700],
+                    fontSize: 30,
+                  )),
+            ),
             MyTextField(
               controller: usernameController,
-            hintText: hintText2,
-            obscureText: false,),
+              hintText: hintText2,
+              obscureText: false,
+            ),
             MyTextField(
               controller: passwordController,
-            hintText: hintText3,
-            obscureText: true,
+              hintText: hintText3,
+              obscureText: true,
             ),
-            const SizedBox(height: 100,),
-            const Mybuttons(text: 'Kayıt Ol',),
+            const SizedBox(
+              height: 100,
+            ),
+            const Mybuttons(
+              text: 'Kayıt Ol',
+            ),
           ],
-        
-
-
-
         ))));
   }
 }

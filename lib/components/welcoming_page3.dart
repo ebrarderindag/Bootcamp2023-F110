@@ -9,7 +9,7 @@ class Welcoming3 extends StatelessWidget {
   Widget build(BuildContext context) {
     const subtext =
         'Uygulama evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyahat planlarını düzenlemesini kolaylaştırır. Ayrıca, kullanıcıların bakıcılar hakkında değerlendirme ve geri bildirimler paylaşmasına olanak tanır, böylece diğer kullanıcılar için referans oluşturur ve kaliteli bakıcılara yönlendirme sağlar.';
-    const _appName = 'appName';
+    const _appName = 'PawBuddy';
     return Scaffold(
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,

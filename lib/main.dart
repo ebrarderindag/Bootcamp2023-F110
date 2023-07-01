@@ -1,10 +1,11 @@
-
+import 'package:f110/newdesign/models/modeller.dart';
+import 'package:f110/newdesign/newAppMain.dart';
 import 'package:f110/pages/%C4%B0nfopage.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 
-void main()  {
+void main() {
   runApp(const MyApp());
 }
 
@@ -13,24 +14,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-    
+    return ChangeNotifierProvider(create: (context) => PawBuddy(),
+    builder: (context, child) => MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'F-110',
-      theme: 
-      
-      ThemeData(
-        primarySwatch:Colors.green,
+      title: 'PawBuddy',
+      theme: ThemeData(
+          primarySwatch: Colors.green,
           appBarTheme: const AppBarTheme(
-            centerTitle: true,
-            backgroundColor: Colors.green,
-            elevation: 20,
-            systemOverlayStyle: SystemUiOverlayStyle.dark,
-            actionsIconTheme: IconThemeData(color: Colors.black)
-          ),
+              centerTitle: true,
+              backgroundColor: Colors.green,
+              elevation: 20,
+              systemOverlayStyle: SystemUiOverlayStyle.dark,
+              actionsIconTheme: IconThemeData(color: Colors.black)),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)
               .copyWith(background: Colors.lightBlue[50])),
-      home:  const DotIndicatorPage(),
+      home: const DotIndicatorPage(),)
     );
   }
 }

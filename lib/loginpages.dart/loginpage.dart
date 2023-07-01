@@ -1,5 +1,6 @@
-import 'package:f110/appPages/appmain.dart';
+
 import 'package:f110/components/textfields.dart';
+import 'package:f110/newdesign/newAppMain.dart';
 import 'package:flutter/material.dart';
 
 class ilkLoginPage extends StatelessWidget {
@@ -37,7 +38,7 @@ class ilkLoginPage extends StatelessWidget {
                 const SizedBox(
                   height: 100,
                 ),
-                 SizedBox(width: 200 ,child: ElevatedButton(onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) {return const AppMain();},));},style:ElevatedButton.styleFrom(
+                 SizedBox(width: 200 ,child: ElevatedButton(onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) {return const NewAppMain();},));},style:ElevatedButton.styleFrom(
                   backgroundColor: Colors.green,
                   shape: const StadiumBorder(),
                   elevation:6,
