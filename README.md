@@ -85,7 +85,7 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 
 # Sprint 2
-- **Sprint Notları:** Uygulamanın info ekranı, bakıcı ekranı, randevu ekranı oluşturuldu.  Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 1 kapatıldı.
+- **Sprint Notları:** Uygulamanın info ekranı, bakıcı ekranı, randevu ekranı oluşturuldu.  Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 2 kapatıldı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
 
