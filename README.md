@@ -103,7 +103,7 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 
   ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint2.jpeg)
-![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
+  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
 
 - **Sprint Review**:
  
