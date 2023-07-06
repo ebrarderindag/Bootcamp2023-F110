@@ -83,3 +83,35 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
   - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini geliştirdiği görülmüştür.
   - Takım üyelerinin gelecek sprintlerde de aynı şekilde aktif olması gerektiğine vurgu yapılmıştır.
 
+
+# Sprint 2
+- **Sprint Notları:** Uygulamanın info ekranı, bakıcı ekranı, randevu ekranı oluşturuldu.  Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 2 kapatıldı.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+
+
+- **Daily Scrum**: 
+[Sprint 2 Daily Scrum Chats](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/ScrumChatSprint2.docx?raw=true)
+
+
+- **Sprint board update**: Sprint board screenshotları: 
+
+
+  ![Backlog 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/trelloSprint2.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+
+  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint2.jpeg)
+  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
+
+- **Sprint Review**:
+ 
+  - Alınan kararlar: Kullanıcı, bilgi, bakıcı sayfaları geliştirilmiş ve kodlanmıştır. Eksiklikler değerlendirilmiştir. 
+
+  - Sprint Review katılımcıları: Ebrar Derindağ, Ilgın Akarcan, Berke Yılmaz, Muhammet Ali Aydın
+
+- **Sprint Retrospective:**
+  - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini geliştirdiği görülmüştür.
+  - Takım üyelerinin gelecek sprintlerde de aynı şekilde aktif olması gerektiğine vurgu yapılmıştır.
+
