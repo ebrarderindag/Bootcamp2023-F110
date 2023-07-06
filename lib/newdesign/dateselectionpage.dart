@@ -68,7 +68,7 @@ class _DateSelectionPageState extends State<DateSelectionPage> {
                     ),
                   ),
                 ],
-              )
+              ),
             ],
           ),
           const SizedBox(

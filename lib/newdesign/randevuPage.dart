@@ -37,7 +37,7 @@ class _RandevuPageState extends State<RandevuPage> {
               itemBuilder: (context, index) {
                 Bakicilar bakici = value.cards[index];
                 return Padding(
-                  padding: const EdgeInsets.only(left:24,right: 24, bottom:8),
+                  padding: const EdgeInsets.only(left:24,right: 24, bottom:16),
                   child: BakiciTile(
                       bakici: bakici,
                       onTap: () => removeFromCard(bakici),
