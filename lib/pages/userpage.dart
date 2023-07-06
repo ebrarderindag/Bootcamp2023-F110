@@ -21,7 +21,7 @@ class UserPage extends StatelessWidget {
       children: [
         FittedBox(
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.only(bottom: 8,left:24,right:24),
             child: Text(appName,
                 style: TextStyle(
                   color: Colors.grey[600],

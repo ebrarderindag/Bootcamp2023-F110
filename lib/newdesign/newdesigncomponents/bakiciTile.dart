@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/bakıcılar.dart';
 
+// ignore: must_be_immutable
 class BakiciTile extends StatelessWidget {
   final Bakicilar bakici;
   final Widget trailing;

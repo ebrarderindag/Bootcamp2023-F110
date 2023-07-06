@@ -28,7 +28,7 @@ class Welcoming3 extends StatelessWidget {
                     height: 30,
                   ),
                   const Padding(
-                    padding: EdgeInsets.only(top: 130),
+                    padding: EdgeInsets.only(top: 130,),
                     child: Center(
                         child: Text(_appName,
                             style: TextStyle(
