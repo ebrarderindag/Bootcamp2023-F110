@@ -1,22 +1,17 @@
-/*import 'package:f110/newdesign/models/modeller.dart';
-import 'package:intl/intl.dart';
-
+import 'package:f110/_LAST_NEW_DESIGN/models/bakici.dart';
+import 'package:f110/_LAST_NEW_DESIGN/models/bakicishop.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'models/bakıcılar.dart';
-
-class DateSelectionPage extends StatefulWidget {
-  final Bakicilar bakici;
-  const DateSelectionPage({super.key, required this.bakici});
+class LastDateSelectionPage extends StatefulWidget {
+  final Bakici bakici;
+  const LastDateSelectionPage({super.key, required this.bakici});
 
   @override
-  State<DateSelectionPage> createState() => _DateSelectionPageState();
+  State<LastDateSelectionPage> createState() => _LastDateSelectionPageState();
 }
 
-class _DateSelectionPageState extends State<DateSelectionPage> {
-  
-
+class _LastDateSelectionPageState extends State<LastDateSelectionPage> {
   double dateValue = 0.0;
   void customizeDate(double newValue) {
     setState(() {
@@ -25,7 +20,7 @@ class _DateSelectionPageState extends State<DateSelectionPage> {
   }
 
   void addToCard() {
-    Provider.of<PawBuddy>(context, listen: false).addToCard(widget.bakici);
+    Provider.of<BakiciShop>(context, listen: false).addItemToCart(widget.bakici);
     Navigator.pop(context);
     showDialog(
       context: context,
@@ -92,4 +87,3 @@ class _DateSelectionPageState extends State<DateSelectionPage> {
     );
   }
 }
-*/

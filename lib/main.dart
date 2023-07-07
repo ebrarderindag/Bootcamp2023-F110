@@ -1,5 +1,4 @@
-import 'package:f110/newdesign/models/modeller.dart';
-import 'package:f110/newdesign/newAppMain.dart';
+import 'package:f110/_LAST_NEW_DESIGN/models/bakicishop.dart';
 import 'package:f110/pages/%C4%B0nfopage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,8 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(create: (context) => PawBuddy(),
-    builder: (context, child) => MaterialApp(
+    return ChangeNotifierProvider(create: (context) => BakiciShop(),
+  builder: (context, child) => MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'PawBuddy',
       theme: ThemeData(
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
               actionsIconTheme: IconThemeData(color: Colors.black)),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)
               .copyWith(background: Colors.lightBlue[50])),
-      home: const DotIndicatorPage(),)
-    );
+      home: const DotIndicatorPage()),
+  );
   }
 }

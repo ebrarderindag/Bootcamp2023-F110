@@ -1,4 +1,5 @@
 
+import 'package:f110/_LAST_NEW_DESIGN/lastappmain.dart';
 import 'package:flutter/material.dart';
 
 import '../loginpages.dart/loginpage.dart';
@@ -76,7 +77,7 @@ class UserPage extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) {
-                    return const NewAppMain();
+                    return const LastNewAppMain();
                   },
                 ));
               },

@@ -1,8 +1,7 @@
-import 'package:f110/newdesign/models/modeller.dart';
+/*import 'package:f110/newdesign/models/modeller.dart';
 import 'package:f110/newdesign/newdesigncomponents/bakiciTile.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'models/bakıcılar.dart';
 
 class RandevuPage extends StatefulWidget {
@@ -13,7 +12,7 @@ class RandevuPage extends StatefulWidget {
 }
 
 class _RandevuPageState extends State<RandevuPage> {
-  void removeFromCard(Bakicilar bakici) {
+  void removeFromCart(Bakicilar bakici) {
     Provider.of<PawBuddy>(context, listen: false).removeFromCard(bakici);
   }
 
@@ -33,15 +32,17 @@ class _RandevuPageState extends State<RandevuPage> {
             ),
             Expanded(
                 child: ListView.builder(
-              itemCount: value.cards.length,
+              itemCount: value.cart.length,
               itemBuilder: (context, index) {
-                Bakicilar bakici = value.cards[index];
+                Bakicilar bakici = value.shop[index];
                 return Padding(
-                  padding: const EdgeInsets.only(left:24,right: 24, bottom:16),
+                  padding:
+                      const EdgeInsets.only(left: 24, right: 24, bottom: 16),
                   child: BakiciTile(
-                      bakici: bakici,
-                      onTap: () => removeFromCard(bakici),
-                      trailing: const Icon(Icons.delete)),
+                    bakici: bakici,
+                    onTap: () => removeFromCart(bakici),
+                    trailing: const Icon(Icons.delete),
+                  ),
                 );
               },
             ))
@@ -50,4 +51,4 @@ class _RandevuPageState extends State<RandevuPage> {
       ),
     );
   }
-}
+}*/

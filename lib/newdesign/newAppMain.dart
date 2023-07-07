@@ -1,4 +1,4 @@
-import 'package:f110/newdesign/profilepage.dart';
+/*import 'package:f110/newdesign/profilepage.dart';
 import 'package:f110/newdesign/randevuPage.dart';
 import 'package:flutter/material.dart';
 
@@ -19,25 +19,25 @@ class _NewAppMainState extends State<NewAppMain> {
       _selectedindex = newIndex;
     });
   }
-//sayfalar
-    final List<Widget> _pages=[
-      //randevularım
-      RandevuPage(),
-      //main
-      AnaSayfa(),
-      //profil
-      ProfilePage(),
-    ];
 
+//sayfalar
+  final List<Widget> _pages = [
+    //randevularım
+    const RandevuPage(),//cardpage
+    //main
+    const AnaSayfa(),//shoppage
+    //profil
+    const ProfilePage(),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: MyBottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
-        
       ),
       body: _pages[_selectedindex],
     );
   }
 }
+*/

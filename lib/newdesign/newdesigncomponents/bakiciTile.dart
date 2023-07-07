@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/bakıcılar.dart';
 
 // ignore: must_be_immutable
-class BakiciTile extends StatelessWidget {
+/*class BakiciTile extends StatelessWidget {
   final Bakicilar bakici;
   final Widget trailing;
   void Function()? onTap;
@@ -23,10 +23,11 @@ class BakiciTile extends StatelessWidget {
             leading: const Icon(Icons.person),
             trailing: trailing,
             title: Text(bakici.name,style: const TextStyle(fontWeight: FontWeight.w500)),
-            subtitle: Text(bakici.yas.toString() + ' ' + bakici.meslek,style: const TextStyle(fontWeight: FontWeight.w400),),
+            subtitle: Text('${bakici.yas} ${bakici.meslek}',style: const TextStyle(fontWeight: FontWeight.w400),),
           ),
         ),
       ),
     );
   }
 }
+*/
