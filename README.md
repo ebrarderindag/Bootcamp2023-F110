@@ -12,18 +12,18 @@ Flutter 110
 - Ekin Çal: Aktif Olmayan Üye
 
 ## Ürün İsmi
-
+PawBuddy
 
 ## Product Backlog URL
 [Flutter Team 110 Backlog Board](https://trello.com/b/WG8qC98Z/f110)
 
 ## Ürün Açıklaması
 
-**, evcil hayvan sahiplerinin şehir dışına çıktıklarında rahatlıkla hayvanlarını güvende bırakabilecekleri, güvenilir ve sevgi dolu bakıcılar bulmalarını sağlayan bir platformdur. Evcil hayvanınızın ihtiyaçlarına duyarlı, deneyimli ve sevgi dolu bakıcıları bulmak artık daha kolay!
+PawBuddy, evcil hayvan sahiplerinin şehir dışına çıktıklarında rahatlıkla hayvanlarını güvende bırakabilecekleri, güvenilir ve sevgi dolu bakıcılar bulmalarını sağlayan bir platformdur. Evcil hayvanınızın ihtiyaçlarına duyarlı, deneyimli ve sevgi dolu bakıcıları bulmak artık daha kolay!
 
 - **Uygulama birincil fonksiyonlar**: 
 
-Birincil Fonksiyon: ***, evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.
+Birincil Fonksiyon: PawBuddy, evcil hayvan sahiplerinin seyahat ettiği zamanlarda güvenilir ve deneyimli bakıcıları bulmalarına olanak sağlar, böylece evcil hayvanlarını güvende ve iyi bakımlı bir ortamda bırakabilirler.
 
 
 
@@ -49,7 +49,7 @@ Uygulama, evcil hayvan sahiplerinin bakıcılarla iletişim kurmasını ve seyah
 
 ## Hedef Kitle
 
-**** uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu uygulama, köpek, kedi, kuş, hamster, tavşan gibi çeşitli evcil hayvan türlerine sahip olan bireyleri hedefler. Hedef kitlenin genellikle seyahat etmek zorunda kalan, tatil yapmak isteyen veya iş gereği şehir dışına çıkan evcil hayvan sahipleri olduğunu söyleyebiliriz. Bu uygulama, evcil hayvan sahiplerinin seyahatleri sırasında evcil hayvanlarının güvende ve bakımlı bir ortamda kalmasını sağlamayı amaçlar.
+PawBuddy uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu uygulama, köpek, kedi, kuş, hamster, tavşan gibi çeşitli evcil hayvan türlerine sahip olan bireyleri hedefler. Hedef kitlenin genellikle seyahat etmek zorunda kalan, tatil yapmak isteyen veya iş gereği şehir dışına çıkan evcil hayvan sahipleri olduğunu söyleyebiliriz. Bu uygulama, evcil hayvan sahiplerinin seyahatleri sırasında evcil hayvanlarının güvende ve bakımlı bir ortamda kalmasını sağlamayı amaçlar.
 
 # Sprint 1
 - **Sprint Notları:** Uygulamanın giriş sayfası, login sayfası, login 2 sayfaları oluşturuldu. Firebase kullanımı için güncel doküman incelemesi yapıldı. Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 1 kapatıldı.
