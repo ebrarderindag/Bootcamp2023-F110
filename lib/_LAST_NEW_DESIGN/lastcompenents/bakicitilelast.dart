@@ -16,7 +16,7 @@ class LastBakiciTile extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.green.shade400,
+            color: Colors.green.shade500,
             borderRadius: BorderRadius.all(Radius.circular(12))
           ),
           child: ListTile(

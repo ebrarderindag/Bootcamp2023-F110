@@ -1,5 +1,5 @@
 import 'package:f110/_LAST_NEW_DESIGN/lastappmain.dart';
-import 'package:f110/newdesign/newAppMain.dart';
+
 import 'package:flutter/material.dart';
 
 class Mybuttons extends StatelessWidget {

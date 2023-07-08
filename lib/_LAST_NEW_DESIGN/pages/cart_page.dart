@@ -12,25 +12,46 @@ class LastCartPage extends StatefulWidget {
 }
 
 class _LastCartPageState extends State<LastCartPage> {
-  void removeFromCart(Bakici Bakici){
-    Provider.of<BakiciShop>(context,listen: false).removeItemFromCart(Bakici);
+  void removeFromCart(Bakici Bakici) {
+    Provider.of<BakiciShop>(context, listen: false).removeItemFromCart(Bakici);
+    showDialog(
+      context: context,
+      builder: (context) => const AlertDialog(
+        title: Text('Randevu İptal Edildi'),
+      ),
+    );
   }
+
   @override
   Widget build(BuildContext context) {
-    return  Consumer<BakiciShop>(builder: (context, value, child) => SafeArea(
-      child: Column(
-        children: [
-           Center(child: Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('Randevularım',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500)),
-          )),
-          SizedBox(height: 20,),
-          Expanded(child: ListView.builder(itemCount: value.userCart.length,itemBuilder: (context, index) {
-            Bakici  eachBakici=value.userCart[index];
-            return LastBakiciTile(onTap: () => removeFromCart(eachBakici),bakici: eachBakici, onPressed: () => removeFromCart(eachBakici), icon: const Icon(Icons.delete));
-          },))
-        ],
+    return Consumer<BakiciShop>(
+      builder: (context, value, child) => SafeArea(
+        child: Column(
+          children: [
+            const Center(
+                child: Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text('Randevularım',
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
+            )),
+            const SizedBox(
+              height: 20,
+            ),
+            Expanded(
+                child: ListView.builder(
+              itemCount: value.userCart.length,
+              itemBuilder: (context, index) {
+                Bakici eachBakici = value.userCart[index];
+                return LastBakiciTile(
+                    onTap: () => removeFromCart(eachBakici),
+                    bakici: eachBakici,
+                    onPressed: () => removeFromCart(eachBakici),
+                    icon: const Icon(Icons.delete));
+              },
+            ))
+          ],
+        ),
       ),
-    ),);
+    );
   }
 }

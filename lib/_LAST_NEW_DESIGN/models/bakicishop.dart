@@ -11,6 +11,10 @@ final List<Bakici> _shop=[
   Bakici(name: 'Ali Kaya', meslek: 'Polis', yas: 37),
   Bakici(name: 'Ayşe Dağ', meslek: 'Eğitmen', yas: 26),
   Bakici(name: 'Elif Neşe', meslek: 'Müzisyen', yas: 22),
+  Bakici(name: 'Ahmet Yılmaz', meslek: 'Doktor', yas: 36),
+  Bakici(name: 'Ebru Güven', meslek: 'Editör', yas: 45),
+  Bakici(name: 'Güneş Uzun', meslek: 'Dans Eğitmeni', yas: 24),
+  Bakici(name: 'Tolga Kum', meslek: 'Diyetisyen', yas: 33),
 ];
 
   List<Bakici> _userCart= [];

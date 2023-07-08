@@ -1,7 +1,7 @@
 
 import 'package:f110/_LAST_NEW_DESIGN/lastappmain.dart';
 import 'package:f110/components/textfields.dart';
-import 'package:f110/newdesign/newAppMain.dart';
+
 import 'package:flutter/material.dart';
 
 class ilkLoginPage extends StatelessWidget {

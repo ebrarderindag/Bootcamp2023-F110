@@ -22,12 +22,7 @@ class _LastShopPageState extends State<LastShopPage> {
         ));
   }
 
-void addToCart(Bakici bakici){
-Provider.of<BakiciShop>(context,listen: false).addItemToCart(bakici);
-showDialog(context: context, builder: (context) => AlertDialog(
-  title: Text('Randevu Başarıyla Alındı'),
-),);
-}
+
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +40,7 @@ showDialog(context: context, builder: (context) => AlertDialog(
                   itemCount: value.bakiciShop.length,
               itemBuilder: (context, index) {
                 Bakici eachBakici= value.bakiciShop[index];
-                return LastBakiciTile(onTap: () => goToDatePage(eachBakici),bakici: eachBakici, icon: const Icon(Icons.add),onPressed: () => addToCart(eachBakici));
+                return LastBakiciTile(onTap: () => goToDatePage(eachBakici),bakici: eachBakici, icon: const Icon(Icons.add),onPressed:() =>  goToDatePage(eachBakici),);
               }
             ))
           ],
