@@ -20,8 +20,8 @@ class LastBakiciTile extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(12))
           ),
           child: ListTile(
-            title: Text(bakici.name),
-            subtitle: Text(bakici.yas.toString()+' '+bakici.meslek),
+            title: Text(bakici.name,style: TextStyle(fontWeight: FontWeight.w500),),
+            subtitle: Text(bakici.yas.toString()+' '+bakici.meslek,),
             leading: Icon(Icons.person),
             trailing: IconButton(onPressed: onPressed, icon: icon),
           ),

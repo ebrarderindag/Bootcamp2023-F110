@@ -1,6 +1,7 @@
 import 'package:f110/_LAST_NEW_DESIGN/lastcompenents/bakicitilelast.dart';
 import 'package:f110/_LAST_NEW_DESIGN/models/bakici.dart';
 import 'package:f110/_LAST_NEW_DESIGN/models/bakicishop.dart';
+import 'package:f110/_LAST_NEW_DESIGN/pages/cancal_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -14,12 +15,20 @@ class LastCartPage extends StatefulWidget {
 class _LastCartPageState extends State<LastCartPage> {
   void removeFromCart(Bakici Bakici) {
     Provider.of<BakiciShop>(context, listen: false).removeItemFromCart(Bakici);
-    showDialog(
+    /*showDialog(
       context: context,
       builder: (context) => const AlertDialog(
         title: Text('Randevu İptal Edildi'),
       ),
-    );
+    );*/
+  }
+
+  void goToCancelPage(Bakici bakici) {
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => cancelPage(bakici: bakici),
+        ));
   }
 
   @override
@@ -39,16 +48,16 @@ class _LastCartPageState extends State<LastCartPage> {
             ),
             Expanded(
                 child: ListView.builder(
-              itemCount: value.userCart.length,
-              itemBuilder: (context, index) {
-                Bakici eachBakici = value.userCart[index];
-                return LastBakiciTile(
-                    onTap: () => removeFromCart(eachBakici),
-                    bakici: eachBakici,
-                    onPressed: () => removeFromCart(eachBakici),
-                    icon: const Icon(Icons.delete));
-              },
-            ))
+                    itemCount: value.userCart.length,
+                    itemBuilder: (context, index) {
+                      Bakici eachBakici = value.userCart[index];
+                      return LastBakiciTile(
+                        onTap: () => goToCancelPage(eachBakici),
+                        bakici: eachBakici,
+                        icon: const Icon(Icons.delete),
+                        onPressed: () => goToCancelPage(eachBakici),
+                      );
+                    }))
           ],
         ),
       ),

@@ -1,5 +1,4 @@
-import 'dart:ffi';
-
+import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 import 'package:f110/_LAST_NEW_DESIGN/models/bakici.dart';
 import 'package:f110/_LAST_NEW_DESIGN/models/bakicishop.dart';
 import 'package:flutter/material.dart';
@@ -7,6 +6,7 @@ import 'package:provider/provider.dart';
 
 class LastDateSelectionPage extends StatefulWidget {
   final Bakici bakici;
+
   const LastDateSelectionPage({super.key, required this.bakici});
 
   @override
@@ -20,6 +20,8 @@ class _LastDateSelectionPageState extends State<LastDateSelectionPage> {
       dateValue = newValue;
     });
   }
+
+  void _onSelectionChanged(DateRangePickerSelectionChangedArgs args) {}
 
   void addToCard() {
     Provider.of<BakiciShop>(context, listen: false)
@@ -42,22 +44,46 @@ class _LastDateSelectionPageState extends State<LastDateSelectionPage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Container(
-          decoration:  BoxDecoration(
+          decoration: BoxDecoration(
               color: Colors.green.shade500,
-              borderRadius: BorderRadius.all(Radius.circular(12))),
+              borderRadius: const BorderRadius.all(Radius.circular(12))),
           child: Column(
             children: [
               const SizedBox(
                 height: 20,
               ),
-              const Icon(Icons.person, size: 250,),
-              Text(widget.bakici.name,style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w600),),
+              const Icon(
+                Icons.person,
+                size: 180,
+              ),
+              Text(
+                widget.bakici.name,
+                style: const TextStyle(
+                    fontSize: 22,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600),
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(widget.bakici.meslek,style: TextStyle(fontSize: 18,color: Colors.grey.shade200,fontWeight: FontWeight.w400),),
-                  SizedBox(width: 4,height: 8,),
-                  Text(widget.bakici.yas.toString(),style: TextStyle(fontSize: 18,color: Colors.grey.shade200,fontWeight: FontWeight.w400),)
+                  Text(
+                    widget.bakici.meslek,
+                    style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.grey.shade200,
+                        fontWeight: FontWeight.w400),
+                  ),
+                  const SizedBox(
+                    width: 4,
+                    height: 8,
+                  ),
+                  Text(
+                    widget.bakici.yas.toString(),
+                    style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.grey.shade200,
+                        fontWeight: FontWeight.w400),
+                  )
                 ],
               ),
               const SizedBox(
@@ -65,34 +91,28 @@ class _LastDateSelectionPageState extends State<LastDateSelectionPage> {
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
                 children: [
-                  Row(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.all(16.0),
-                        child: Text(
-                          'Gün Sayısı',
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                              color: Colors.white),
-                        ),
-                      ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(24.0),
-                          child: Slider(
-                            activeColor: Colors.black,
-                            inactiveColor: Colors.white,
-                            max: 30.0,
-                            label: dateValue.toString(),
-                            value: dateValue,
-                            divisions: 30,
-                            onChanged: (value) => customizeDate(value),
-                          ),
-                        ),
-                      ),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: SizedBox(
+                      height: 250,
+                      width: 300,
+                      child: SizedBox(
+                          child: SfDateRangePicker(
+                        view: DateRangePickerView.year,
+                        monthViewSettings:
+                            const DateRangePickerMonthViewSettings(
+                                firstDayOfWeek: 1),
+                        onSelectionChanged: _onSelectionChanged,
+                        selectionMode: DateRangePickerSelectionMode.range,
+                        selectionColor: Colors.green.shade600,
+                        rangeSelectionColor: Colors.green.shade200,
+                        selectionShape:
+                            DateRangePickerSelectionShape.circle,
+                        enablePastDates: false,
+                      )),
+                    ),
                   ),
                 ],
               ),

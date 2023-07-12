@@ -13,7 +13,6 @@ class LastShopPage extends StatefulWidget {
 }
 
 class _LastShopPageState extends State<LastShopPage> {
-
   void goToDatePage(Bakici bakici) {
     Navigator.push(
         context,
@@ -22,30 +21,38 @@ class _LastShopPageState extends State<LastShopPage> {
         ));
   }
 
-
-
   @override
   Widget build(BuildContext context) {
-    return Consumer<BakiciShop>(builder:(context, value, child) => SafeArea(
-      child: SafeArea(
-        child: Column(
-          children: [
-            const Center(child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Text('Bakıcılar',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500)),
-            )),
-            const SizedBox(height: 20,),
-            Expanded(
-                child: ListView.builder(
-                  itemCount: value.bakiciShop.length,
-              itemBuilder: (context, index) {
-                Bakici eachBakici= value.bakiciShop[index];
-                return LastBakiciTile(onTap: () => goToDatePage(eachBakici),bakici: eachBakici, icon: const Icon(Icons.add),onPressed:() =>  goToDatePage(eachBakici),);
-              }
-            ))
-          ],
-        ),
-      ),
-    ));
+    return Consumer<BakiciShop>(
+        builder: (context, value, child) => SafeArea(
+              child: SafeArea(
+                child: Column(
+                  children: [
+                    const Center(
+                        child: Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text('Bakıcılar',
+                          style: TextStyle(
+                              fontSize: 24, fontWeight: FontWeight.w500)),
+                    )),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Expanded(
+                        child: ListView.builder(
+                            itemCount: value.bakiciShop.length,
+                            itemBuilder: (context, index) {
+                              Bakici eachBakici = value.bakiciShop[index];
+                              return LastBakiciTile(
+                                onTap: () => goToDatePage(eachBakici),
+                                bakici: eachBakici,
+                                icon: const Icon(Icons.add),
+                                onPressed: () => goToDatePage(eachBakici),
+                              );
+                            }))
+                  ],
+                ),
+              ),
+            ));
   }
 }
