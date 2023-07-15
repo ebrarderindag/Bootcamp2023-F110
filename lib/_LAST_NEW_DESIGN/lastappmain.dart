@@ -4,7 +4,6 @@ import 'package:f110/_LAST_NEW_DESIGN/pages/profile_page.dart';
 import 'package:f110/_LAST_NEW_DESIGN/pages/shop_page.dart';
 import 'package:f110/pages/userpage.dart';
 
-
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
@@ -61,21 +60,16 @@ class _LastNewAppMainState extends State<LastNewAppMain> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      Text(
-                        'PawBuddy',
-                        style: GoogleFonts.exo2(
-                          textStyle: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                          ),
+                      Expanded(
+                        child: Image.asset(
+                          "assets/resimler/pawbuddy_logo.png",
                         ),
                       ),
                     ],
                   ),
                 ),
               ),
-               const Divider(
+              const Divider(
                 color: Colors.white,
                 thickness: 1,
               ),
@@ -89,25 +83,24 @@ class _LastNewAppMainState extends State<LastNewAppMain> {
                     ),
                   ],
                 ),
-                
                 child: ListTile(
-                  leading:  const Icon(
-                  Icons.person,
-                  color: Colors.white,
-                ),
+                  leading: const Icon(
+                    Icons.person,
+                    color: Colors.white,
+                  ),
                   title: const Text(
                     'Profil',
                     style: TextStyle(color: Colors.white),
                   ),
                   onTap: () {
                     setState(() {
-                      _lastSelectedindex=2;
+                      _lastSelectedindex = 2;
                     });
                     Navigator.pop(context);
                   },
                 ),
               ),
-               const Divider(
+              const Divider(
                 color: Colors.white,
                 thickness: 1,
               ),
@@ -123,19 +116,17 @@ class _LastNewAppMainState extends State<LastNewAppMain> {
                 ),
                 child: ListTile(
                   leading: const Icon(
-                  Icons.settings,
-                  color: Colors.white,
-                ),
+                    Icons.settings,
+                    color: Colors.white,
+                  ),
                   title: const Text(
                     'Ayarlar',
                     style: TextStyle(color: Colors.white),
                   ),
-                  onTap: () {
-
-                  },
+                  onTap: () {},
                 ),
               ),
-               const Divider(
+              const Divider(
                 color: Colors.white,
                 thickness: 1,
               ),
@@ -150,19 +141,24 @@ class _LastNewAppMainState extends State<LastNewAppMain> {
                   ],
                 ),
                 child: ListTile(
-                  leading:  const Icon(
-                  Icons.info,
-                  color: Colors.white,
-                ),
+                  leading: const Icon(
+                    Icons.info,
+                    color: Colors.white,
+                  ),
                   title: const Text(
                     'Hakkında',
                     style: TextStyle(color: Colors.white),
                   ),
                   onTap: () {
+                    showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                              title: Text("PawBuddy/OUA'23 - Team F-110"),
+                            ));
                   },
                 ),
               ),
-               const Divider(
+              const Divider(
                 color: Colors.white,
                 thickness: 1,
               ),
@@ -178,23 +174,22 @@ class _LastNewAppMainState extends State<LastNewAppMain> {
                 ),
                 child: ListTile(
                   leading: const Icon(
-                  Icons.exit_to_app,
-                  color: Colors.white,
-                ),
+                    Icons.exit_to_app,
+                    color: Colors.white,
+                  ),
                   title: const Text(
                     'Çıkış Yap',
                     style: TextStyle(color: Colors.white),
                   ),
                   onTap: () {
                     Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) {
-                      return const UserPage();
-                    },
-                  ));
+                      builder: (context) {
+                        return const UserPage();
+                      },
+                    ));
                   },
                 ),
               ),
-              
             ],
           ),
         ),

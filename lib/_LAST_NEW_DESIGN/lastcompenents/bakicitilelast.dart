@@ -1,6 +1,7 @@
 import 'package:f110/_LAST_NEW_DESIGN/models/bakici.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class LastBakiciTile extends StatelessWidget {
   final Bakici bakici;
   void Function()? onPressed;
