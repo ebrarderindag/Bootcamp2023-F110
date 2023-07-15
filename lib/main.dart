@@ -1,5 +1,6 @@
 import 'package:f110/_LAST_NEW_DESIGN/models/bakicishop.dart';
-import 'package:f110/pages/%C4%B0nfopage.dart';
+
+import 'package:f110/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
               actionsIconTheme: IconThemeData(color: Colors.black)),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)
               .copyWith(background: Colors.lightBlue[50])),
-      home: const DotIndicatorPage()),
+      home: const SplashScreen()),
   );
   }
 }

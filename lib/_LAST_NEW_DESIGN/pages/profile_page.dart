@@ -7,42 +7,58 @@ class LastProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Profilim',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+        body: SingleChildScrollView(
+      child: Column(
+        children: [
+          const Center(
+              child: Icon(
+            Icons.person,
+            size: 250,
+          )),
+          const SizedBox(
+            height: 16,
           ),
-        ),
-        body:  Column(
-          children: [
-            const Center(
-                child: Icon(
-              Icons.person,
-              size: 250,
-            )),
-            const SizedBox(height: 16,),
-            const ProfileTile(icon: Icon(Icons.account_circle), text: Text('Berke Yılmaz',style: TextStyle(fontWeight: FontWeight.w500))),
-            const ProfileTile(icon: Icon(Icons.place), text: Text('Manisa',style: TextStyle(fontWeight: FontWeight.w500))),
-            const ProfileTile(icon: Icon(Icons.medical_information), text: Text('Hakkımda',style: TextStyle(fontWeight: FontWeight.w500),)),
-            const ProfileTile(icon: Icon(Icons.settings), text:Text('Ayarlar',style: TextStyle(fontWeight: FontWeight.w500)) ),
-            Center(
-                child: Padding(
-                    padding: const EdgeInsets.only(bottom: 8,right: 16,left: 16),
-                    child: Card(
-                      color: Colors.grey.shade300,
-                      shape: const StadiumBorder(),
-                      child:   ListTile(
-                        title: Text('Uygulama Hakkında',style: TextStyle(fontWeight: FontWeight.w500)),
-                        shape: StadiumBorder(),
-                        leading: Icon(Icons.info),
-                        onTap: () {
-                          showDialog(context: context, builder: (context) => AlertDialog(title: Text("PawBuddy/OUA'23 - Team F-110"),))
-
-                          ;
-                        },
-                      ),
-                    )))
-          ],
-        ));
+          const ProfileTile(
+              icon: Icon(Icons.account_circle),
+              text: Text('Berke Yılmaz',
+                  style: TextStyle(fontWeight: FontWeight.w500))),
+          const ProfileTile(
+              icon: Icon(Icons.place),
+              text: Text('Manisa',
+                  style: TextStyle(fontWeight: FontWeight.w500))),
+          const ProfileTile(
+              icon: Icon(Icons.medical_information),
+              text: Text(
+                'Hakkımda',
+                style: TextStyle(fontWeight: FontWeight.w500),
+              )),
+          const ProfileTile(
+              icon: Icon(Icons.settings),
+              text: Text('Ayarlar',
+                  style: TextStyle(fontWeight: FontWeight.w500))),
+          Center(
+              child: Padding(
+                  padding:
+                      const EdgeInsets.only(bottom: 8, right: 16, left: 16),
+                  child: Card(
+                    color: Colors.grey.shade300,
+                    shape: const StadiumBorder(),
+                    child: ListTile(
+                      title: Text('Uygulama Hakkında',
+                          style: TextStyle(fontWeight: FontWeight.w500)),
+                      shape: StadiumBorder(),
+                      leading: Icon(Icons.info),
+                      onTap: () {
+                        showDialog(
+                            context: context,
+                            builder: (context) => AlertDialog(
+                                  title: Text("PawBuddy/OUA'23 - Team F-110"),
+                                ));
+                      },
+                    ),
+                  )))
+        ],
+      ),
+    ));
   }
 }

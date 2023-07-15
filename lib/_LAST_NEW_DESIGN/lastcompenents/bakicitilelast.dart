@@ -15,14 +15,14 @@ class LastBakiciTile extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Container(
-          decoration: BoxDecoration(
-            color: Colors.green.shade500,
+          decoration: const BoxDecoration(
+            color: Colors.green,
             borderRadius: BorderRadius.all(Radius.circular(12))
           ),
           child: ListTile(
-            title: Text(bakici.name,style: TextStyle(fontWeight: FontWeight.w500),),
+            title: Text(bakici.name,style: const TextStyle(fontWeight: FontWeight.w500),),
             subtitle: Text(bakici.yas.toString()+' '+bakici.meslek,),
-            leading: Icon(Icons.person),
+            leading: const Icon(Icons.person),
             trailing: IconButton(onPressed: onPressed, icon: icon),
           ),
         ),

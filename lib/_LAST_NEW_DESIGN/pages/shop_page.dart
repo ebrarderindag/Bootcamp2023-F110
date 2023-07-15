@@ -30,14 +30,12 @@ class _LastShopPageState extends State<LastShopPage> {
                   children: [
                     const Center(
                         child: Padding(
-                      padding: EdgeInsets.all(8.0),
+                      padding: EdgeInsets.all(16.0),
                       child: Text('Bakıcılar',
                           style: TextStyle(
                               fontSize: 24, fontWeight: FontWeight.w500)),
                     )),
-                    const SizedBox(
-                      height: 20,
-                    ),
+                    
                     Expanded(
                         child: ListView.builder(
                             itemCount: value.bakiciShop.length,

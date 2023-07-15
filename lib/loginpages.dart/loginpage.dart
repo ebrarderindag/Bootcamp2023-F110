@@ -1,4 +1,3 @@
-
 import 'package:f110/_LAST_NEW_DESIGN/lastappmain.dart';
 import 'package:f110/components/textfields.dart';
 
@@ -36,14 +35,34 @@ class ilkLoginPage extends StatelessWidget {
                   hintText: 'Şifre',
                   obscureText: true,
                 ),
-                const SizedBox(
-                  height: 100,
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20,top: 10),
+                      child: TextButton(
+                          onPressed: () {}, child: Text('Şifremi Unuttum!')),
+                    ),
+                  ],
                 ),
-                 SizedBox(width: 200 ,child: ElevatedButton(onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) {return const LastNewAppMain();},));},style:ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green,
-                  shape: const StadiumBorder(),
-                  elevation:6,
-                ), child: const Text(giristext)))
+                const SizedBox(
+                  height: 70,
+                ),
+                SizedBox(
+                    width: 200,
+                    child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) {
+                              return const LastNewAppMain();
+                            },
+                          ));
+                        },
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.green,
+                          shape: const StadiumBorder(),
+                          elevation: 6,
+                        ),
+                        child: const Text(giristext)))
               ],
             ),
           ),

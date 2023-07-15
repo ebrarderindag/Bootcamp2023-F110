@@ -15,12 +15,12 @@ class LastCartPage extends StatefulWidget {
 class _LastCartPageState extends State<LastCartPage> {
   void removeFromCart(Bakici Bakici) {
     Provider.of<BakiciShop>(context, listen: false).removeItemFromCart(Bakici);
-    /*showDialog(
+    showDialog(
       context: context,
       builder: (context) => const AlertDialog(
         title: Text('Randevu İptal Edildi'),
       ),
-    );*/
+    );
   }
 
   void goToCancelPage(Bakici bakici) {
@@ -39,7 +39,7 @@ class _LastCartPageState extends State<LastCartPage> {
           children: [
             const Center(
                 child: Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(16.0),
               child: Text('Randevularım',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
             )),
