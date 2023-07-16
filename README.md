@@ -142,4 +142,4 @@ PawBuddy uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu 
 
 - **Sprint Retrospective:**
   - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini iyi bir şekilde yönettikleri görülmüştür.
-  - Takım üyelerine katılımlarından dolayı teşekkür edilmiş ve proje kapatılmıştır.
+  - Takım üyeleri başarılarından dolayı tebrik edilmiş ve proje kapatılmıştır.
