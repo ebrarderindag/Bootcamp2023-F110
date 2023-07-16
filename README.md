@@ -132,8 +132,8 @@ PawBuddy uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu 
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
-  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint2.jpeg)
-  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
+  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint3.jpeg)
+  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint3.jpeg)
 
 - **Sprint Review**:
  
