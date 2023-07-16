@@ -101,17 +101,45 @@ PawBuddy uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu 
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
-
   ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint2.jpeg)
   ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
 
 - **Sprint Review**:
  
   - Alınan kararlar: Kullanıcı, bilgi, bakıcı sayfaları geliştirilmiş ve kodlanmıştır. Eksiklikler değerlendirilmiştir. 
-
   - Sprint Review katılımcıları: Ebrar Derindağ, Ilgın Akarcan, Berke Yılmaz, Muhammet Ali Aydın
 
 - **Sprint Retrospective:**
   - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini geliştirdiği görülmüştür.
   - Takım üyelerinin gelecek sprintlerde de aynı şekilde aktif olması gerektiğine vurgu yapılmıştır.
 
+
+# Sprint 3
+- **Sprint Notları:** Uygulamanın ara ekranları oluşturuldu. Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 3 kapatıldı.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 80 Puan
+- **Tahmin mantığı **: 3. sprint ile birlikte toplam 300 puan elde edilmiştir.
+
+
+- **Daily Scrum**:
+
+  [Sprint 2 Daily Scrum Chats](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/ScrumChatSprint3.docx?raw=true)
+
+
+- **Sprint board update**: Sprint board screenshotları: 
+
+  ![Backlog 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/trelloSprint3.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+  ![Screenshot 1](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen1_Sprint2.jpeg)
+  ![Screenshot 2](https://github.com/ebrarderindag/Bootcamp2023-F110/blob/main/ReadMeSS/Screen2_Sprint2.jpeg)
+
+- **Sprint Review**:
+ 
+  - Alınan kararlar: Kullanıcı, bilgi, bakıcı sayfalarının kontrolleri yapılmıştır, ara ekranlar eklenmiş ve eksikler giderilmiştir. 
+  - Sprint Review katılımcıları: Ebrar Derindağ, Ilgın Akarcan, Berke Yılmaz, Muhammet Ali Aydın
+
+- **Sprint Retrospective:**
+  - Takımın hedeflere ulaşma konusunda başarılı olduğu ve birlikte çalışma sürecini iyi bir şekilde yönettikleri görülmüştür.
+  - Takım üyelerine katılımlarından dolayı teşekkür edilmiş ve proje kapatılmıştır.
