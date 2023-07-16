@@ -118,7 +118,7 @@ PawBuddy uygulamasının hedef kitlesi genellikle evcil hayvan sahipleridir. Bu 
 - **Sprint Notları:** Uygulamanın ara ekranları oluşturuldu. Sprint boyunca gerçekleştirilmesi gereken görevlerin ayrıntılı kontrolü yapıldı ve sprint 3 kapatıldı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 80 Puan
-- **Tahmin mantığı **: 3. sprint ile birlikte toplam 300 puan elde edilmiştir.
+- **Tahmin mantığı**: 3. sprint ile birlikte toplam 300 puan elde edilmiştir.
 
 
 - **Daily Scrum**:
